@@ -16,5 +16,6 @@
 //+(CGSize) getSizeOfText:(NSString *) text ConstrainedSize:(CGSize) cSize Font:(UIFont *) font;
 //+(CGFloat)heightForAttributedString:(NSAttributedString *)attrString forWidth:(CGFloat)inWidth;
 +(NSString *) getFullPath:(NSString *)fileName;
++ (NSString *)GetUUID;
 
 @end
