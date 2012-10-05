@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E2DAF55161ED6B600EDEACC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2DAF54161ED6B600EDEACC /* Foundation.framework */; };
+		2E2DAF5A161ED6B700EDEACC /* Fourty2Helpers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF59161ED6B700EDEACC /* Fourty2Helpers.h */; };
+		2E2DAF5C161ED6B700EDEACC /* Fourty2Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF5B161ED6B700EDEACC /* Fourty2Helpers.m */; };
+		2E2DAF63161ED77D00EDEACC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2DAF62161ED77D00EDEACC /* CoreText.framework */; };
+		2E2DAF65161ED78600EDEACC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2DAF64161ED78600EDEACC /* QuartzCore.framework */; };
+		2E2DAF68161EDA9600EDEACC /* NSDate+FormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF67161EDA9600EDEACC /* NSDate+FormattedStrings.m */; };
+		2E2DAF6B161EDB0D00EDEACC /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF6A161EDB0D00EDEACC /* UIImage+Extras.m */; };
+		2E2DAF71161EDBC700EDEACC /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF70161EDBC700EDEACC /* Helper.m */; };
+		2E2DAF74161EDC8D00EDEACC /* NSString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF73161EDC8D00EDEACC /* NSString+Extras.m */; };
+		2E2DAF77161EDD4A00EDEACC /* NSAttributedString+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF76161EDD4A00EDEACC /* NSAttributedString+Extras.m */; };
+		2E2DAF78161EDE2400EDEACC /* NSDate+FormattedStrings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF66161EDA9600EDEACC /* NSDate+FormattedStrings.h */; };
+		2E2DAF79161EDE2400EDEACC /* UIImage+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF69161EDB0D00EDEACC /* UIImage+Extras.h */; };
+		2E2DAF7A161EDE2400EDEACC /* Helper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF6F161EDBC700EDEACC /* Helper.h */; };
+		2E2DAF7B161EDE2400EDEACC /* NSString+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF72161EDC8D00EDEACC /* NSString+Extras.h */; };
+		2E2DAF7C161EDE2400EDEACC /* NSAttributedString+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF75161EDD4900EDEACC /* NSAttributedString+Extras.h */; };
+		2E2DAF80161EDE8500EDEACC /* SingletonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF7F161EDE8500EDEACC /* SingletonCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E2DAF4F161ED6B600EDEACC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				2E2DAF78161EDE2400EDEACC /* NSDate+FormattedStrings.h in CopyFiles */,
+				2E2DAF79161EDE2400EDEACC /* UIImage+Extras.h in CopyFiles */,
+				2E2DAF7A161EDE2400EDEACC /* Helper.h in CopyFiles */,
+				2E2DAF7B161EDE2400EDEACC /* NSString+Extras.h in CopyFiles */,
+				2E2DAF7C161EDE2400EDEACC /* NSAttributedString+Extras.h in CopyFiles */,
+				2E2DAF5A161ED6B700EDEACC /* Fourty2Helpers.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E2DAF51161ED6B600EDEACC /* libFourty2Helpers.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFourty2Helpers.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2DAF54161ED6B600EDEACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E2DAF58161ED6B700EDEACC /* Fourty2Helpers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fourty2Helpers-Prefix.pch"; sourceTree = "<group>"; };
+		2E2DAF59161ED6B700EDEACC /* Fourty2Helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fourty2Helpers.h; sourceTree = "<group>"; };
+		2E2DAF5B161ED6B700EDEACC /* Fourty2Helpers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fourty2Helpers.m; sourceTree = "<group>"; };
+		2E2DAF62161ED77D00EDEACC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2E2DAF64161ED78600EDEACC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2E2DAF66161EDA9600EDEACC /* NSDate+FormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedStrings.h"; sourceTree = "<group>"; };
+		2E2DAF67161EDA9600EDEACC /* NSDate+FormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedStrings.m"; sourceTree = "<group>"; };
+		2E2DAF69161EDB0D00EDEACC /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
+		2E2DAF6A161EDB0D00EDEACC /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
+		2E2DAF6F161EDBC700EDEACC /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		2E2DAF70161EDBC700EDEACC /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		2E2DAF72161EDC8D00EDEACC /* NSString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extras.h"; sourceTree = "<group>"; };
+		2E2DAF73161EDC8D00EDEACC /* NSString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extras.m"; sourceTree = "<group>"; };
+		2E2DAF75161EDD4900EDEACC /* NSAttributedString+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Extras.h"; sourceTree = "<group>"; };
+		2E2DAF76161EDD4A00EDEACC /* NSAttributedString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Extras.m"; sourceTree = "<group>"; };
+		2E2DAF7E161EDE8500EDEACC /* SingletonCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonCache.h; sourceTree = "<group>"; };
+		2E2DAF7F161EDE8500EDEACC /* SingletonCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E2DAF4E161ED6B600EDEACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2DAF65161ED78600EDEACC /* QuartzCore.framework in Frameworks */,
+				2E2DAF63161ED77D00EDEACC /* CoreText.framework in Frameworks */,
+				2E2DAF55161ED6B600EDEACC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E2DAF46161ED6B600EDEACC = {
+			isa = PBXGroup;
+			children = (
+				2E2DAF56161ED6B600EDEACC /* Fourty2Helpers */,
+				2E2DAF53161ED6B600EDEACC /* Frameworks */,
+				2E2DAF52161ED6B600EDEACC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E2DAF52161ED6B600EDEACC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E2DAF51161ED6B600EDEACC /* libFourty2Helpers.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E2DAF53161ED6B600EDEACC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2DAF64161ED78600EDEACC /* QuartzCore.framework */,
+				2E2DAF62161ED77D00EDEACC /* CoreText.framework */,
+				2E2DAF54161ED6B600EDEACC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E2DAF56161ED6B600EDEACC /* Fourty2Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2E2DAF59161ED6B700EDEACC /* Fourty2Helpers.h */,
+				2E2DAF5B161ED6B700EDEACC /* Fourty2Helpers.m */,
+				2E2DAF6F161EDBC700EDEACC /* Helper.h */,
+				2E2DAF70161EDBC700EDEACC /* Helper.m */,
+				2E2DAF75161EDD4900EDEACC /* NSAttributedString+Extras.h */,
+				2E2DAF76161EDD4A00EDEACC /* NSAttributedString+Extras.m */,
+				2E2DAF7D161EDE8500EDEACC /* NSCacheSingleton */,
+				2E2DAF66161EDA9600EDEACC /* NSDate+FormattedStrings.h */,
+				2E2DAF67161EDA9600EDEACC /* NSDate+FormattedStrings.m */,
+				2E2DAF72161EDC8D00EDEACC /* NSString+Extras.h */,
+				2E2DAF73161EDC8D00EDEACC /* NSString+Extras.m */,
+				2E2DAF57161ED6B700EDEACC /* Supporting Files */,
+				2E2DAF69161EDB0D00EDEACC /* UIImage+Extras.h */,
+				2E2DAF6A161EDB0D00EDEACC /* UIImage+Extras.m */,
+			);
+			path = Fourty2Helpers;
+			sourceTree = "<group>";
+		};
+		2E2DAF57161ED6B700EDEACC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E2DAF58161ED6B700EDEACC /* Fourty2Helpers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E2DAF7D161EDE8500EDEACC /* NSCacheSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				2E2DAF7E161EDE8500EDEACC /* SingletonCache.h */,
+				2E2DAF7F161EDE8500EDEACC /* SingletonCache.m */,
+			);
+			path = NSCacheSingleton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E2DAF50161ED6B600EDEACC /* Fourty2Helpers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E2DAF5F161ED6B700EDEACC /* Build configuration list for PBXNativeTarget "Fourty2Helpers" */;
+			buildPhases = (
+				2E2DAF4D161ED6B600EDEACC /* Sources */,
+				2E2DAF4E161ED6B600EDEACC /* Frameworks */,
+				2E2DAF4F161ED6B600EDEACC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fourty2Helpers;
+			productName = Fourty2Helpers;
+			productReference = 2E2DAF51161ED6B600EDEACC /* libFourty2Helpers.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E2DAF48161ED6B600EDEACC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = 42dp;
+			};
+			buildConfigurationList = 2E2DAF4B161ED6B600EDEACC /* Build configuration list for PBXProject "Fourty2Helpers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E2DAF46161ED6B600EDEACC;
+			productRefGroup = 2E2DAF52161ED6B600EDEACC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E2DAF50161ED6B600EDEACC /* Fourty2Helpers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E2DAF4D161ED6B600EDEACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E2DAF5C161ED6B700EDEACC /* Fourty2Helpers.m in Sources */,
+				2E2DAF68161EDA9600EDEACC /* NSDate+FormattedStrings.m in Sources */,
+				2E2DAF6B161EDB0D00EDEACC /* UIImage+Extras.m in Sources */,
+				2E2DAF71161EDBC700EDEACC /* Helper.m in Sources */,
+				2E2DAF74161EDC8D00EDEACC /* NSString+Extras.m in Sources */,
+				2E2DAF77161EDD4A00EDEACC /* NSAttributedString+Extras.m in Sources */,
+				2E2DAF80161EDE8500EDEACC /* SingletonCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2E2DAF5D161ED6B700EDEACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E2DAF5E161ED6B700EDEACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E2DAF60161ED6B700EDEACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Fourty2Helpers.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fourty2Helpers/Fourty2Helpers-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2E2DAF61161ED6B700EDEACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Fourty2Helpers.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fourty2Helpers/Fourty2Helpers-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E2DAF4B161ED6B600EDEACC /* Build configuration list for PBXProject "Fourty2Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2DAF5D161ED6B700EDEACC /* Debug */,
+				2E2DAF5E161ED6B700EDEACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E2DAF5F161ED6B700EDEACC /* Build configuration list for PBXNativeTarget "Fourty2Helpers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E2DAF60161ED6B700EDEACC /* Debug */,
+				2E2DAF61161ED6B700EDEACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E2DAF48161ED6B600EDEACC /* Project object */;
+}

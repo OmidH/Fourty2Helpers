@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Fourty2Helpers' target in the 'Fourty2Helpers' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
