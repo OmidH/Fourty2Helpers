@@ -13,5 +13,7 @@
 
 -(CGSize) getSizeOfTextForConstrainedSize:(CGSize) cSize Font:(UIFont *) font;
 -(BOOL) validateAsEmail;
+-(BOOL) validateAsUrl;
+-(BOOL) validateAsPhoneNumber;
 
 @end
