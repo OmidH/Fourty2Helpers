@@ -10,10 +10,10 @@
 
 @interface UIImage (Extras)
 
-
-- (UIImage*)imageByBestFitForSize:(CGSize)targetSize;
-- (UIImage*)imageByScalingAndCroppingForSize:(CGSize)targetSize;
-- (UIImage *)resizedImageWithContentMode:(UIViewContentMode)contentMode imageToScale:(UIImage*)imageToScale
+- (UIImage*) rotate:(UIImageOrientation) orientation;
+- (UIImage*) imageByBestFitForSize:(CGSize)targetSize;
+- (UIImage*) imageByScalingAndCroppingForSize:(CGSize)targetSize;
+- (UIImage*) resizedImageWithContentMode:(UIViewContentMode)contentMode imageToScale:(UIImage*)imageToScale
                                   bounds:(CGSize)bounds interpolationQuality:(CGInterpolationQuality)quality;
 
 

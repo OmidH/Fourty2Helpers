@@ -8,8 +8,33 @@
 
 #import "UIImage+Extras.h"
 
+static inline double radians (double degrees) {return degrees * M_PI/180;}
+
 @implementation UIImage (Extras)
 
+-(UIImage*) rotate:(UIImageOrientation) orientation {
+    UIGraphicsBeginImageContext(self.size);
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    if (orientation == UIImageOrientationRight) {
+        CGContextRotateCTM (context, radians(90));
+    } else if (orientation == UIImageOrientationLeft) {
+        CGContextRotateCTM (context, radians(-90));
+    } else if (orientation == UIImageOrientationDown) {
+        // NOTHING
+    } else if (orientation == UIImageOrientationUp) {
+        CGContextRotateCTM (context, radians(90));
+    } else if (orientation == UIImageOrientationRightMirrored) {
+        CGContextRotateCTM (context, radians(180));
+    } else if (orientation == UIImageOrientationLeftMirrored) {
+        CGContextRotateCTM (context, radians(-180));
+    }
+    
+    [self drawAtPoint:CGPointMake(0, 0)];
+    
+    return UIGraphicsGetImageFromCurrentImageContext();
+}
 
 - (UIImage*)imageByBestFitForSize:(CGSize)targetSize {
     
