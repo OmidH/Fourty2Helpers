@@ -10,6 +10,7 @@
 
 @interface UIImage (Extras)
 
+- (UIImage *)scaleAndRotateImage:(UIImageOrientation) orient;
 - (UIImage*) rotate:(UIImageOrientation) orientation;
 - (UIImage*) imageByBestFitForSize:(CGSize)targetSize;
 - (UIImage*) imageByScalingAndCroppingForSize:(CGSize)targetSize;
