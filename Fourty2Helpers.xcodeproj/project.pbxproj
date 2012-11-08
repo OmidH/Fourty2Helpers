@@ -23,8 +23,10 @@
 		2E2DAF7B161EDE2400EDEACC /* NSString+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF72161EDC8D00EDEACC /* NSString+Extras.h */; };
 		2E2DAF7C161EDE2400EDEACC /* NSAttributedString+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2E2DAF75161EDD4900EDEACC /* NSAttributedString+Extras.h */; };
 		2E2DAF80161EDE8500EDEACC /* SingletonCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DAF7F161EDE8500EDEACC /* SingletonCache.m */; };
+		341B78D2C68E402314999BC9 /* UIImageView+Async.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 341B78F335E3DDB49FFC2E10 /* UIImageView+Async.h */; };
 		341B7A6F4AE04F8ACE3C2AF4 /* UIView+Extras.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 341B77AB2C1E4C9035F77565 /* UIView+Extras.h */; };
 		341B7C39582F0657E1F18E2E /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 341B72F52704E9DCC0D027AE /* UIView+Extras.m */; };
+		341B7D29191B6CBF4F42227C /* UIImageView+Async.m in Sources */ = {isa = PBXBuildFile; fileRef = 341B728CE46F83D99A0339BC /* UIImageView+Async.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,7 @@
 				2E2DAF7C161EDE2400EDEACC /* NSAttributedString+Extras.h in CopyFiles */,
 				2E2DAF5A161ED6B700EDEACC /* Fourty2Helpers.h in CopyFiles */,
 				341B7A6F4AE04F8ACE3C2AF4 /* UIView+Extras.h in CopyFiles */,
+				341B78D2C68E402314999BC9 /* UIImageView+Async.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,8 +69,10 @@
 		2E2DAF76161EDD4A00EDEACC /* NSAttributedString+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+Extras.m"; sourceTree = "<group>"; };
 		2E2DAF7E161EDE8500EDEACC /* SingletonCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonCache.h; sourceTree = "<group>"; };
 		2E2DAF7F161EDE8500EDEACC /* SingletonCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonCache.m; sourceTree = "<group>"; };
+		341B728CE46F83D99A0339BC /* UIImageView+Async.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Async.m"; sourceTree = "<group>"; };
 		341B72F52704E9DCC0D027AE /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
 		341B77AB2C1E4C9035F77565 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		341B78F335E3DDB49FFC2E10 /* UIImageView+Async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Async.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +135,8 @@
 				2E2DAF6A161EDB0D00EDEACC /* UIImage+Extras.m */,
 				341B72F52704E9DCC0D027AE /* UIView+Extras.m */,
 				341B77AB2C1E4C9035F77565 /* UIView+Extras.h */,
+				341B728CE46F83D99A0339BC /* UIImageView+Async.m */,
+				341B78F335E3DDB49FFC2E10 /* UIImageView+Async.h */,
 			);
 			path = Fourty2Helpers;
 			sourceTree = "<group>";
@@ -210,6 +217,7 @@
 				2E2DAF77161EDD4A00EDEACC /* NSAttributedString+Extras.m in Sources */,
 				2E2DAF80161EDE8500EDEACC /* SingletonCache.m in Sources */,
 				341B7C39582F0657E1F18E2E /* UIView+Extras.m in Sources */,
+				341B7D29191B6CBF4F42227C /* UIImageView+Async.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
