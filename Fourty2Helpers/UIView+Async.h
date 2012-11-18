@@ -6,7 +6,10 @@
 
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface UIView (Async)
+
+-(void) loadDataWithUrl:(NSURL *)url CompletionBlock:(void (^)(NSData *))dataBlock ErrorBlock:(void (^)(void)) errorBlock;
 
 @end
